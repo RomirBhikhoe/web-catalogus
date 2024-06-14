@@ -1,0 +1,332 @@
+:root {
+    --background: rgb(255, 255, 255);
+    --headings: rgb(221, 147, 255);
+    --knoppen: rgb(216, 102, 255);
+}
+
+body {
+    background-color: var(--background);
+}
+
+/* voor de categorie pagina: de knoppen bovenaan het scherm */
+.navs {
+    display: grid;
+    grid-template-rows: auto-fill repeat(200px, 1fr);
+    grid-template-areas: "hm ab ct cn";
+    grid-gap: 10px;
+    height: 40px;
+    font-size: 30px;
+}
+
+.header {
+    text-align: center;
+    margin-top: 130px;
+    font-size: 30px;
+}
+
+
+p {
+    width: 800px;
+    height: 150px;
+}
+
+.home {
+    grid-area: hm;
+    background-color: var(--knoppen);
+    text-align: center;
+}
+
+.about {
+    grid-area: ab;
+    background-color: var(--knoppen);
+    text-align: center;
+}
+
+.categories {
+    grid-area: ct;
+    background-color: var(--knoppen);
+    text-align: center;
+}
+
+.contact {
+    grid-area: cn;
+    background-color: var(--knoppen);
+    text-align: center;
+}
+
+button {
+    background-color: var(--knoppen);
+}
+
+.categories-box, .nintendo-box {
+    background-color: var(--headings);
+    text-align: center;
+}
+
+.home {
+    position: relative;
+    right: 735px;
+    bottom: 60px;
+}
+
+header {
+    background-color: var(--headings);
+}
+
+.categories-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10%;
+}
+
+.cat-img {
+    width: 500px;
+}
+
+.rfotos, .rgames, .ngames {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.nintendo-wrapper {
+    display: grid;
+    gap: 5px;
+    grid-template-columns: repeat(12, 1fr);
+    height: 100vh;
+}
+
+.main-wrapper {
+    display: grid;
+    gap: 5px;
+    grid-template-columns: repeat(12, 1fr);
+    height: 100vh;
+}
+
+.nintendo-main {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr)
+}
+
+.nintendo-box {
+    grid-area: bx;
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+/* alle linker sidebars op romir's pagina's met links naar andere pagina's */
+.nintendo-left-sidebar {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    font-size: x-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: var(--headings);
+    padding: 30px;
+    gap: 10px;
+}
+
+/* foto's van de consoles op de nintendo games pagina */
+.nintendo-right-sidebar {
+    margin-left: 500px;
+    background-color: var(--headings);
+}
+
+.consoles-image {
+    width: 40vw;
+    float: right;
+}
+
+footer {
+    text-align: center;
+    background-color: var(--headings);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    right: 0px;
+    color: white;
+}
+
+.nintendo-text {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 20px;
+    margin: 10px ;
+    font-size: 20px;
+    border: 2px solid black
+}
+
+.wiiuimg, .switchimg, .wiiimg {
+    width: 250px;
+    border-radius: 10px;
+}
+
+.headerimg {
+    height: 400px;
+    display: flex;
+    align-items: center;
+    margin: auto;
+}
+
+.card-wrapper {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(1, 3fr);
+    padding-bottom: 20px;
+}
+
+.nintendo-game {
+    width: 400px
+}
+
+.nintendo-card {
+    padding: 5px;
+    border: 2px solid black; 
+    width: min-content 300px;
+    height: min-content 1px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(206, 206, 198);
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+}
+
+.use {
+    background-color: var(--knoppen)
+}
+
+a:hover {
+    border: 5px solid white;
+}
+
+.col-1{grid-column: span 1;}
+.col-2{grid-column: span 2;}
+.col-3{grid-column: span 3;}
+.col-4{grid-column: span 4;}
+.col-5{grid-column: span 5;}
+.col-6{grid-column: span 6;}
+.col-7{grid-column: span 7;}
+.col-8{grid-column: span 8;}
+.col-9{grid-column: span 9;}
+.col-10{grid-column: span 10;}
+.col-11{grid-column: span 11;}
+.col-12{grid-column: span 12;}
+
+.row-1{grid-row: span 1;}
+.row-2{grid-row: span 2;}
+.row-3{grid-row: span 3;}
+.row-4{grid-row: span 4;}
+.row-5{grid-row: span 5;}
+.row-6{grid-row: span 6;}
+.row-7{grid-row: span 7;}
+.row-8{grid-row: span 8;}
+.row-9{grid-row: span 9;}
+.row-10{grid-row: span 10;}
+.row-11{grid-row: span 11;}
+.row-12{grid-row: span 12;}
+
+@media (min-width:400px) {
+    .col-md-1{grid-column: span 1;}
+    .col-md-2{grid-column: span 2;}
+    .col-md-3{grid-column: span 3;}
+    .col-md-4{grid-column: span 4;}
+    .col-md-5{grid-column: span 5;}
+    .col-md-6{grid-column: span 6;}
+    .col-md-7{grid-column: span 7;}
+    .col-md-8{grid-column: span 8;}
+    .col-md-9{grid-column: span 9;}
+    .col-md-10{grid-column: span 10;}
+    .col-md-11{grid-column: span 11;}
+    .col-md-12{grid-column: span 12;}
+
+    .row-md-1{grid-row: span 1;}
+    .row-md-2{grid-row: span 2;}
+    .row-md-3{grid-row: span 3;}
+    .row-md-4{grid-row: span 4;}
+    .row-md-5{grid-row: span 5;}
+    .row-md-6{grid-row: span 6;}
+    .row-md-7{grid-row: span 7;}
+    .row-md-8{grid-row: span 8;}
+    .row-md-9{grid-row: span 9;}
+    .row-md-10{grid-row: span 10;}
+    .row-md-11{grid-row: span 11;}
+    .row-md-12{grid-row: span 12;}
+
+    .card-wrapper {
+        display: grid;
+        gap: 10px;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .nintendo-game {
+        width: 200px;
+    }
+    
+    .nintendo-card {
+        padding: 5px;
+        border: 2px solid black; 
+        width: min-content 200px;
+        height: min-content 1px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        background-color: rgb(206, 206, 198);
+    }
+}
+
+
+
+@media (min-width:800px) {
+    .col-l-1{grid-column: span 1;}
+    .col-l-2{grid-column: span 2;}
+    .col-l-3{grid-column: span 3;}
+    .col-l-4{grid-column: span 4;}
+    .col-l-5{grid-column: span 5;}
+    .col-l-6{grid-column: span 6;}
+    .col-l-7{grid-column: span 7;}
+    .col-l-8{grid-column: span 8;}
+    .col-l-9{grid-column: span 9;}
+    .col-l-10{grid-column: span 10;}
+    .col-l-11{grid-column: span 11;}
+    .col-l-12{grid-column: span 12;}
+
+    .row-l-1{grid-row: span 1;}
+    .row-l-2{grid-row: span 2;}
+    .row-l-3{grid-row: span 3;}
+    .row-l-4{grid-row: span 4;}
+    .row-l-5{grid-row: span 5;}
+    .row-l-6{grid-row: span 6;}
+    .row-l-7{grid-row: span 7;}
+    .row-l-8{grid-row: span 8;}
+    .row-l-9{grid-row: span 9;}
+    .row-l-10{grid-row: span 10;}
+    .row-l-11{grid-row: span 11;}
+    .row-l-12{grid-row: span 12;}
+    
+    .card-wrapper {
+        display: grid;
+        gap: 10px;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .nintendo-game {
+        width: 300px;
+    }
+    
+    .nintendo-card {
+        padding: 5px;
+        border: 2px solid black; 
+        width: min-content 300px;
+        height: min-content 1px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        background-color: rgb(206, 206, 198);
+    }
+
+    .nintendo-left-sidebar {
+        flex-direction: column;
+    }
+    
+}
+

@@ -1,0 +1,141 @@
+/* nav variabelen */
+:root {
+    --background: rgb(255, 255, 255);
+    --headings: rgb(0, 0, 0);
+    --knoppen: rgb(0, 0, 0);
+}
+
+/* about text grid */
+.text-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas: "aw rs"
+    "rb rb";
+}
+
+.aw {
+    grid-area: aw;
+}
+
+.rs {
+    grid-area: rs;
+}
+
+.rb {
+    grid-area: rb;
+}
+
+.tx1 {
+    grid-area: tx1;
+}
+
+.tx2 {
+    grid-area: tx2;
+}
+
+.tx3 {
+    grid-area: tx3;
+}
+
+.img1 {
+    grid-area: img1;
+}
+
+.img2 {
+    grid-area: img2;
+}
+
+.img3 {
+    grid-area: img3;
+}
+
+.img1, .img2, .img3 {
+    width: 300px;
+}
+
+body {
+    background-color: var(--background);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* navs grid */
+.navs {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-areas: "nav nav nav nav";
+    column-gap: 20px;
+    height: 40px;
+    font-size: 30px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+nav {
+    background-color: var(--knoppen);
+}
+
+footer {
+    text-align: center;
+    background-color: var(--headings);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    right: 0px;
+    color: white;
+}
+
+/* navs + text media query */
+@media screen and (max-width: 500px) {
+    .navs {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-areas: "nav"
+            "nav"
+            "nav"
+            "nav";
+        column-gap: 20px;
+        row-gap: 20px;
+        height: 40px;
+        font-size: 30px;
+    }
+
+    .text-container {
+        margin-top: 200px;
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+    .header {
+        margin-top: 180px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .navs {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-areas: "nav"
+            "nav"
+            "nav"
+            "nav";
+        column-gap: 20px;
+        row-gap: 20px;
+        height: 40px;
+        font-size: 30px;
+    }
+
+    .text-container {
+        margin-top: 50px;
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+    .header {
+        margin-top: 180px;
+    }
+}

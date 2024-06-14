@@ -1,0 +1,90 @@
+/* color variables */
+:root {
+    --background: rgb(255, 255, 255);
+    --headings: rgb(0, 0, 0);
+    --knoppen: rgb(0, 0, 0);
+}
+
+body {
+    background-color: var(--background);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.inputs {
+    margin-top: 300px;
+    text-align: center;
+}
+
+/* navs grid */
+.navs {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-areas: "nav nav nav nav";
+    column-gap: 20px;
+    height: 40px;
+    font-size: 30px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+nav {
+    background-color: var(--knoppen);
+}
+
+footer {
+    text-align: center;
+    background-color: var(--headings);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    right: 0px;
+    color: white;
+}
+
+.send {
+    margin-top: 10px;
+    margin-left: 895px;
+}
+
+@media screen and (max-width: 500px) {
+    .navs {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-areas: "nav"
+        "nav"
+        "nav"
+        "nav";
+        column-gap: 20px;
+        row-gap: 20px;
+        height: 40px;
+        font-size: 30px;
+    }
+
+    .send {
+        margin-top: 10px;
+        margin-left: 200px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .navs {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-areas: "nav"
+        "nav"
+        "nav"
+        "nav";
+        column-gap: 20px;
+        row-gap: 20px;
+        height: 40px;
+        font-size: 30px;
+    }
+
+    .send {
+        margin-top: 10px;
+        margin-left: 450px;
+    }
+}

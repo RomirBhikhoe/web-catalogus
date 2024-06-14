@@ -1,0 +1,139 @@
+/* Color variables */
+:root {
+    --background: rgb(255, 255, 255);
+    --headings: rgb(0, 0, 0);
+    --knoppen: rgb(0, 0, 0);
+}
+
+body {
+    background-color: var(--background);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Games grid */
+ .game-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 10px;
+    margin-top: 10px;
+    grid-template-areas: "rgame rgame rgame"
+    "rgame rgame rgame";
+}
+
+/* Navs grid */
+.navs {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-areas: "nav nav nav nav";
+    column-gap: 20px;
+    height: 40px;
+    font-size: 30px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+nav {
+    background-color: var(--knoppen);
+}
+
+.rgame {
+    display: grid;
+    width: 400px;
+    border: 1px solid black;
+}
+
+.price {
+    background-color: orange;
+    font-size: 25px;
+}
+
+img {
+    height: 400px;
+}
+
+footer {
+    text-align: center;
+    background-color: var(--headings);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    right: 0px;
+    color: white;
+}
+
+/* Media query 1000px */
+@media screen and (max-width: 1000px) {
+    .game-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        row-gap: 10px;
+        margin-top: 10px;
+        grid-template-areas: "rgame"
+        "rgame"
+        "rgame"
+        "rgame"
+        "rgame"
+        "rgame";
+    }
+}
+
+/* Media query 500px */
+@media screen and (max-width: 500px) {
+    .game-container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        row-gap: 10px;
+        margin-top: 200px;
+        grid-template-areas: "rgame"
+        "rgame"
+        "rgame"
+        "rgame"
+        "rgame"
+        "rgame";
+    }
+    
+    .navs {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-areas: "nav"
+        "nav"
+        "nav"
+        "nav";
+        column-gap: 20px;
+        row-gap: 10px;
+        height: 40px;
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .game-container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        row-gap: 10px;
+        margin-top: 200px;
+        grid-template-areas: "rgame"
+        "rgame"
+        "rgame"
+        "rgame"
+        "rgame"
+        "rgame";
+    }
+    
+    .navs {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-areas: "nav"
+        "nav"
+        "nav"
+        "nav";
+        column-gap: 20px;
+        row-gap: 10px;
+        height: 40px;
+        font-size: 30px;
+    }
+}
+
