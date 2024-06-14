@@ -1,0 +1,98 @@
+[
+    {
+        "title": "Super Mario Odyssey",
+        "description": "Reis met Mario en Cappy door vele verschillende rijken op zoek naar Energie Manen om Peach te redden!",
+        "img": "https://m.media-amazon.com/images/I/81drkVN7GRL._AC_UF1000,1000_QL80_.jpg",
+        "releaseDate": "27 oktober 2017",
+        "price": "€60,-"
+    },
+
+    {
+        "title": "The Legend of Zelda Breath of the Wild",
+        "description": "Na een 100 jaar durende slaap wordt Link wakker zonder iets te kunnen herrineren, help hem zijn geheugen terug te krijgen in de grootste versie van Hyrule ooit!",
+        "img": "https://media.s-bol.com/j83kyWl5jWvz/nGR2VY/518x840.jpg",
+        "releaseDate": "3 maart 2017",
+        "price": "€60,-"
+    },
+
+    {
+        "title": "Mario Kart 8 Deluxe",
+        "description": "Mario Kart 8 van de Wii U nu met alle DLC voor de Nintendo Switch!",
+        "img": "https://m.media-amazon.com/images/I/91vd7WQ1acL.jpg",
+        "releaseDate": "28 april 2017",
+        "price": "€50,-"
+    },
+
+    {
+        "title": "Animal Crossing New Horizons",
+        "description": "Maak een paradijs van je eigen persoonlijke eiland!",
+        "img": "https://media.s-bol.com/rqgpQkrYr194/6zWpp9/518x840.jpg",
+        "releaseDate": "20 maart 2020",
+        "price": "€60,-"
+    },
+
+    {
+        "title": "Super Smash Bros. Ultimate",
+        "description": "Iedereen keert terug in deze nieuwe Super Smash Bros. game voor de Nintendo Switch!",
+        "img": "https://m.media-amazon.com/images/I/81hxAPWEziL._AC_UF1000,1000_QL80_.jpg",
+        "releaseDate": "7 december 2018",
+        "price": "€60,-"
+    },
+
+    {
+        "title": "Super Mario 3D All Stars",
+        "description": "3 geweldige Mario games in een nieuw jasje!",
+        "img": "https://media.s-bol.com/g2YAkLPKn1Jl/503x840.jpg",
+        "releaseDate": "18 september 2020",
+        "price": "€75,-"
+    },
+
+    {
+        "title": "Nintendo Switch Sports",
+        "description": "Het vervolg op Wii Sports!",
+        "img": "https://media.s-bol.com/ZgQ8xv28q6yE/OzoMvB/429x840.jpg",
+        "releaseDate": "29 april 2022",
+        "price": "€40,-"
+    },
+
+    {
+        "title": "Super Mario 3D World + Bowser's Fury",
+        "description": "Mario, Luigi, Peach & Toad moeten de Sprixie princessen redden in dit 4 player co-op avontuur!",
+        "img": "https://m.media-amazon.com/images/I/81VrW5EM1NL._AC_UF1000,1000_QL80_.jpg",
+        "releaseDate": "12 februari 2021",
+        "price": "€50,-"
+    },
+
+    {
+        "title": "The Legend of Zelda Tears of the Kingdom",
+        "description": "Keer terug naar Hyrule om het mysterie om Prinses Zelda te ontravelen..",
+        "img": "https://media.s-bol.com/qmvE5oRG6Dw0/yPPNkPE/518x840.jpg",
+        "releaseDate": "12 mei 2023",
+        "price": "€65,-"
+    },
+
+    {
+        "title": "Mario + Rabbid's Kingdom Battle",
+        "description": "Mario en de Rabbits gaan op een avontuur om de chaos in het Paddenstoelenrijk te redden!",
+        "img": "https://assets1.ignimgs.com/2017/06/12/mario-and-rabbids-button-000-1497306013276.jpg",
+        "releaseDate": "29 augustus 2017",
+        "price": "€30,-"
+    },
+
+    {
+        "title": "Mario + Rabbid's Sparks of Hope",
+        "description": "Mario en de Rabbits reizen door de ruimte om een hogere kracht te verslaan.",
+        "img": "https://upload.wikimedia.org/wikipedia/en/6/66/Mario_%2B_Rabbids_Sparks_of_Hope_cover_art.jpg",
+        "releaseDate": "20 oktober 2022",
+        "price": "€35,-"
+    },
+
+    {
+        "title": "Super Mario Bros. Wonder",
+        "description": "Een Mario avontuur in een nieuw koninkrijk!",
+        "img": "https://media.s-bol.com/mV3zyOJEknRR/nwGgXD/518x840.jpg",
+        "releaseDate": "20 oktober 2023",
+        "price": "€50,-"
+    }
+ 
+]

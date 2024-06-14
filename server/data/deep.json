@@ -1,0 +1,17 @@
+[
+    {
+        "title": "Wide",
+        "img": "https://www.kuuke.nl/wp-content/uploads/2017/10/20200127-venus-gezien-door-de-akatsuki.jpg",
+        "description": "Text text text text text."
+    },
+    {
+        "title": "mars",
+        "img": "https://i.natgeofe.com/n/dc19387c-604d-4b26-bb40-775919d8f7a9/mars-globe-valles-marineris-enhanced_square.jpg",
+        "description": "Text text text text text."
+    },
+    {
+        "title": "saturnus",
+        "img": "https://www.reuzenplaneten.nl/saturnus/images/Saturnus_met_manen.jpg",
+        "description": "Text text text text text."
+    }
+]

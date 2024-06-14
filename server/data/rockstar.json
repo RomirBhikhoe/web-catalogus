@@ -1,0 +1,65 @@
+[
+    {
+        "title": "(OPKOMEND!) Grand Theft Auto VI",
+        "description": "De nieuwste en meest verwachtte GTA-spel ooit, Grand Theft Auto VI is een opkomende game van Rockstar Games die plaats neemt in de staat Leonida, huis van de beroemde stad Vice City.",
+        "img": "https://static.tvtropes.org/pmwiki/pub/images/gta_vi_wallpaper_crop.jpg",
+        "releaseDate": "???, 2025",
+        "price": "n.v.t"
+    },
+    {
+        "title": "Red Dead Redemption II",
+        "description": "Red Dead Redemption II, een voorloper van de eerste Red Dead Redemption, vertelt het verhaal van de Van der Linde bende na het mislukte overval van een veerboot in Blackwater. Het verhaal wordt verteld in de ogen van Arthur Morgan.",
+        "img": "https://ih1.redbubble.net/image.2952913717.2497/flat,750x,075,f-pad,750x1000,f8f8f8.jpg",
+        "releaseDate": "26 oktober, 2018",
+        "price": "€49,99"
+    },
+    {
+        "title": "Grand Theft Auto V",
+        "description": "Grand Theft Auto V vertelt het verhaal van drie criminelen: Franklin Clinton, Michael de Santa en Trevor Philips. Samen zouden zij van plan worden om de grootste bank van Los Santos te veroveren.",
+        "img": "https://hips.hearstapps.com/digitalspyuk.cdnds.net/13/14/gaming-gta5-cover.jpeg",
+        "releaseDate": "17 september, 2017",
+        "price": "€19,99"
+    },
+    {
+        "title": "Max Payne 3",
+        "description": "Max Payne 3 laat de verhaal van Max Payne door te vertellen en eindigen na de gebeurtenissen van de eerste en tweede spel.",
+        "img": "https://s01.riotpixels.net/data/be/7c/be7cb7c1-9ba3-4641-b508-2656b62b1271.jpg/cover.max-payne-3.1024x1024.2014-04-24.424.jpg",
+        "releaseDate": "15 mei, 2012",
+        "price": "€9,99"
+    },
+    {
+        "title": "Red Dead Redemption I",
+        "description": "Het gevolg van Red Dead Redemption II, Red Dead Redemption I laat het verhaal doorvertellen in de ogen van John Marston, die op de jacht is voor zijn voormalige kameraden van de Van der Linde bende.",
+        "img": "https://upload.wikimedia.org/wikipedia/en/a/a7/Red_Dead_Redemption.jpg",
+        "releaseDate": "18 mei, 2010",
+        "price": "€8,99"
+    },
+    {
+        "title": "Grand Theft Auto IV",
+        "description": "Grand Theft Auto IV vertelt de verhaal van Niko Bellic, een voormalig Servische soldaat die naar Liberty City kwam voor een makkelijkere leven nadat hij door zijn neef, Roman Bellic overtuigd werd. Inclusief: Episodes from Liberty City",
+        "img": "https://i.redd.it/zfuvi63q63o41.png",
+        "releaseDate": "29 april, 2008",
+        "price": "€6,99"
+    },
+    {
+        "title": "Grand Theft Auto: San Andreas",
+        "description": "Grand Theft Auto: San Andreas neemt plaats in de jaren 90 en vertelt het verhaal van Carl Johnson, een lid van de Grove Street Families bende. Hij zou terugkeren van Liberty City naar Los Santos nadat hij van de dood van zijn moeder had gehoord.",
+        "img": "https://m.media-amazon.com/images/M/MV5BN2NmOWZmM2EtZGI1Yi00ZDYxLTkxODEtOTMwNmQ0M2IxOWZiXkEyXkFqcGdeQXVyMTA0MTM5NjI2._V1_.jpg",
+        "releaseDate": "26 oktober, 2004",
+        "price": "€4,99"
+    },
+    {
+        "title": "Grand Theft Auto: Vice City",
+        "description": "Grand Theft Auto: Vice City neemt plaats in de jaren 80 in de neon-verlicht stad Vice City en vertelt de verhaal van Tommy Vercetti, een lid van de Italiaanse mafia. Na een mislukte drugdeal, Tommy werd gezet op een taak om het vermiste geld van zijn baas te vinden.",
+        "img": "https://m.media-amazon.com/images/M/MV5BMzdkMTM3ODEtZjFkNi00NzFiLTgxMTEtZWZlMDJmMzkyODNiXkEyXkFqcGdeQXVyMTA0MTM5NjI2._V1_.jpg",
+        "releaseDate": "29 oktober, 2002",
+        "price": "€3,99"
+    },
+    {
+        "title": "Grand Theft Auto III",
+        "description": "Grand Theft Auto III neemt plaats in de vroege jaren 2000 in Liberty City, het vertelt de verhaal van Claude. Nadat hij geschoten werd door zijn vriendin Catalina, hij zou nog steeds levend zijn en taken opnemen voor de mafia.",
+        "img": "https://fiu-original.b-cdn.net/fontsinuse.com/use-images/174/174146/174146.png?filename=GTAIII.png",
+        "releaseDate": "23 oktober, 2001",
+        "price": "€3,99"
+    }
+]
